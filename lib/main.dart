@@ -51,12 +51,14 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(Icons.phone_outlined),
                   title: Text('+880 1819 400 400'),
+                  subtitle: Text('Contact Number'),
                 ),
               ),
               Card(
                 child: ListTile(
                   leading: Icon(Icons.email_outlined),
                   title: Text('anwaarulislaam@gmail.com'),
+                  subtitle: Text('Email'),
                 ),
               ),
             ],
